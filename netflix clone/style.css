@@ -1,0 +1,317 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+}
+.hero-section{
+    height: 700px;
+}
+.nav-bar{
+    height: 80px;
+    display: flex;
+   
+}
+.logo{
+   /* background-image: url(logo.jpg);
+    background-size: cover;*/
+    height: 75px;
+    width: 70px;
+    margin-left: 150px;
+    border-radius: 5px;
+    color: rgb(211, 3, 3);
+    font-size: 2rem;
+    font-weight: 600;
+}
+.signin{
+    height: 75px;
+    color: white;
+    margin-left: 700px ;
+}
+.signin select{
+    background: none;
+    height: 40px;
+    width: 120px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 0.8rem;
+    border: 1.0px solid white;
+}
+.signin button{
+    height: 40px;
+    width: 80px;
+    justify-content: center;
+    text-align: center;
+    font-weight: bolder;
+    background-color: red;
+    font-size: 0.8rem;
+    margin-left: 5px;
+    border-radius: 5px;
+    border: 1px solid red;
+}
+
+.hero-mid{
+    height: 400px;
+    color: white;
+    margin-top: 200px;
+    /*margin-left: 430px;*/
+}
+.hero-mid-cont1{
+    width: 80%;
+    font-size: 2rem;
+    text-align: center;
+    margin-left: 150px;
+
+}
+.hero-mid-cont2{
+    width: 80%;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-left: 150px;
+    color: white;
+    margin-top: 20px;
+}
+.hero-mid-cont3{
+    width: 80%;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-left: 150px;
+    color: white;
+    margin-top: 20px;
+}
+.hero-mid-cont4{
+    width: 80%;
+}
+.hero-mid-cont4 input{
+    background:none;
+    width: 300px;
+    height: 65px;
+    font-weight: bolder;
+    margin-left: 450px;
+    color: white;
+    border-radius: 2px solid #dddddd;
+}
+.hero-mid-cont4 button{
+    height: 70px;
+    width: 150px;
+    background-color: red;
+    color: white;
+    font-size: 1rem;
+    font-weight: bolder;
+    margin-top: 30px;
+}
+
+
+.mid-section{
+    height: 600px;
+    background-color: black;
+    border-top: 5px solid grey;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.mid-section-cont{
+    margin-left: 120px;
+}
+.mid-section-cont h1{
+    font-size: 2.8rem;
+    font-weight: 900;
+}
+.mid-section-cont h3{
+    margin-top: 25px;
+    width: 450px;
+    font-size: 1.5rem;
+}
+.mid-section-img{
+    height: 300px;
+    width: 600px;
+    margin-left: 80px;
+}
+.image{
+    height: 260px;
+    width: 400px;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+
+
+.mid-section2{
+    height: 600px;
+    background-color: black;
+    border-top: 5px solid grey;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.mid-section2-cont{
+    margin-right: 90px;
+}
+.mid-section2-cont h1{
+    font-size: 2.8rem;
+    font-weight: 900;
+}
+.mid-section2-cont h3{
+    margin-top: 25px;
+    width: 450px;
+    font-size: 1.5rem;
+}
+.mid-section2-img{
+    height: 580px;
+    width: 600px;
+    margin-left: 160px;
+}
+.image2{
+    height: 560px;
+    width: 350px;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+
+.mid-section3{
+    height: 600px;
+    background-color: black;
+    border-top: 5px solid grey;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.mid-section3-cont{
+    margin-left: 120px;
+}
+.mid-section3-cont h1{
+    font-size: 2.8rem;
+    font-weight: 900;
+}
+.mid-section3-cont h3{
+    margin-top: 25px;
+    width: 450px;
+    font-size: 1.5rem;  
+}
+.mid-section3-img{
+    height: 380px;
+    width: 600px;
+    margin-left: 80px;
+}
+.image3{
+    height: 300px;
+    width: 400px;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.mid-section4{
+    height: 600px;
+    background-color: black;
+    border-top: 5px solid grey;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.mid-section4-cont{
+    margin-right: 90px;
+}
+.mid-section4-cont h1{
+    font-size: 2.8rem;
+    font-weight: 900;
+}
+.mid-section4-cont h3{
+    margin-top: 25px;
+    width: 450px;
+    font-size: 1.5rem;
+}
+.mid-section4-img{
+    height: 580px;
+    width: 600px;
+    margin-left: 30px;
+    margin-top: 80px;
+}
+.image4{
+    height: 500px;
+    width: 600px;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.mid-section5{
+    height: 900px;
+    background-color: black;
+    border-top: 5px solid grey;
+    color: white;
+}
+.mid-section5-cont{
+    margin-top: 80px;
+    margin-left: 28%;
+    font-size: 1.5rem;
+}
+.mid-section5-ops{
+    margin-top: 15px;
+}
+.list{
+    height: 80px;
+    width: 85%;
+    text-align: left;
+    color: white;
+   /* background-color: #dddddd;*/
+    background: none;
+    margin-top: 15px;
+    font-size: 20px;
+    margin-left: 100px;
+}
+.mid-section5-cont2{
+    margin-top: 70px;
+    margin-left: 20%;
+    font-size: 1.5rem;
+}
+.email{
+    margin-top: 30px;
+}
+.email input{
+    height: 50px;
+    width: 400px;
+    margin-left: 115px;
+    border-radius: 5px;
+    background: none;
+}
+.email button{
+    height: 50px;
+    width: 200px;
+    border-radius: 5px;
+    background-color: red;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+.foot-panel1{
+    background-color: black;
+    color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9rem;
+    border-top: 5px solid grey;
+    padding-top: 60px;
+    font-size: 1.5rem;
+}
+.foot-panel2{
+    background-color: black;
+    color: white;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul{
+    margin-top: 30px;
+}
+ul a{
+    display: block;
+    font-size: 0.9rem;
+    margin-top: 25px;
+    color: #dddddd;
+    font-size: 1.2rem;
+}
